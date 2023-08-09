@@ -1,0 +1,64 @@
+.headline{
+    font-family: 'Avenir', Geneva, Tahoma, sans-serif;
+    font-size: 75px;
+    color: red;
+    margin-left: 2%;
+
+}
+
+.sub-headline{
+    font-family: 'Avenir', Courier, monospace;
+    font-size: 150%;
+    margin-left: 2%;
+}
+
+header{
+    display: flex;
+
+
+}
+
+#top-nav{
+    justify-content: space-between;
+    
+}
+
+ ul li {
+    display: inline-flex;
+    justify-content: left;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+   
+}
+
+ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 33px;
+    margin-right: 20px;
+
+}
+
+.post-container{
+    display: block;
+    justify-content: left;
+    width: 100%;
+}
+
+.post{
+    width: 59%;
+    justify-content: space-evenly;
+    margin: 0.5% 0% 1% 2%;
+    
+}
+
+.post-pic {
+    margin-left: 2%;
+}
